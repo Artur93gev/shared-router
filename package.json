@@ -42,5 +42,8 @@
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.0"
+  },
+  "dependencies": {
+    "history": "^4.9.0"
   }
 }

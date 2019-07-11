@@ -28,6 +28,13 @@ export default {
     }),
     resolve(),
     external(),
-    commonjs(),
+    commonjs({
+      namedExports: {
+        'react': ['Component', 'memo'],
+        'react-is': ['isValidElementType'],
+        'react-router-dom': ['Router', 'Route'],
+        'history': ['createBrowserHistory'],
+      }
+    }),
   ],
 };
