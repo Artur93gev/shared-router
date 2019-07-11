@@ -1,0 +1,46 @@
+{
+  "name": "shared-router",
+  "version": "1.0.0",
+  "description": "Shared router for multiple SPA's wriitten in react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur93gev/shared-router.git"
+  },
+  "scripts": {
+    "build": "rm -rf build && rollup -c",
+    "deploy": "npm run build && node ./scripts/copyFiles.js && cd build && npm publish"
+  },
+  "keywords": [
+    "router",
+    "shared-router"
+  ],
+  "author": "artur93gev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artur93gev/shared-router/issues"
+  },
+  "homepage": "https://github.com/Artur93gev/shared-router#readme",
+  "peerDedependencies": {
+    "react-router-dom": "^5.0.1",
+    "react": "^16.3.0"
+  },
+  "engines": {
+    "node": ">= 8.9.4",
+    "npm": ">= 5.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0"
+  }
+}
