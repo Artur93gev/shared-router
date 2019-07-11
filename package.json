@@ -1,7 +1,7 @@
 {
   "name": "shared-router",
   "version": "1.0.0",
-  "description": "Shared router for multiple SPA's wriitten in react",
+  "description": "Shared router for multiple SPA's wriitten in React",
   "main": "index.js",
   "repository": {
     "type": "git",
