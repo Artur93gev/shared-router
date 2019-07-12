@@ -1,3 +1,4 @@
+<a href="https://www.npmjs.com/package/shared-router"><img src="https://img.shields.io/badge/npm-shared--router-brightgreen.svg"></a><a href="https://www.npmjs.com/package/shared-router"><img src="https://img.shields.io/npm/v/shared-router.svg"></a>
 # shared-router
 Router helper on top of `react-router-dom` package, for sharing history between applications
 
