@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
-import { Router, Route } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 
+import history from './history';
 import configs from './configs';
 import { Dummy } from './utils';
 
@@ -13,9 +14,7 @@ import { Dummy } from './utils';
 
 const RouteWrapper = props => (
   <Router history={history}>
-    <Route path={configs.prefix} component={Dummy}>
-      {props.children}
-    </Route>
+    {props.children}
   </Router>
 );
 
