@@ -1,6 +1,6 @@
 {
   "name": "shared-router",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Shared router for multiple SPA's wriitten in React",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,8 @@
   },
   "keywords": [
     "router",
-    "shared-router"
+    "shared-router",
+    "shared history"
   ],
   "author": "artur93gev",
   "license": "MIT",
@@ -35,7 +36,6 @@
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@babel/plugin-syntax-jsx": "^7.2.0",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "react": "^16.8.6",
     "react-router-dom": "^5.0.1",
     "rollup": "^1.16.7",
     "rollup-plugin-babel": "^4.3.3",

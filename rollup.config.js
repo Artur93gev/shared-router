@@ -30,7 +30,7 @@ export default {
     external(),
     commonjs({
       namedExports: {
-        'react': ['Component', 'memo'],
+        'react': ['Component'],
         'react-is': ['isValidElementType'],
         'react-router-dom': ['Router'],
         'history': ['createBrowserHistory'],

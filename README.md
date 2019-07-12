@@ -44,10 +44,6 @@ This function provides an ability to programaticly navigate to needed route. Let
 
 Then after calling `setPrefix(routeB)` in the `A` application, you can easly navigate between `B` routes using `navigate('/routeC')` or `navigate('/routeB')`. The following structure is also relaible for application `B` if its standalone, the only difference is that in example case `navigate` function will prefix it with `routeB`, in the other case it will be just the passed argument.
 
-## RouteWrapper
+## history
 
-```js
-React.Element
-```
-
-Use this wrapper function for each code segment you want too have access to your router.
+Use this object to pass to the `react-router-dom` `<Router>` for sharing history between applications.
