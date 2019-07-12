@@ -32,7 +32,7 @@ export default {
       namedExports: {
         'react': ['Component', 'memo'],
         'react-is': ['isValidElementType'],
-        'react-router-dom': ['Router', 'Route'],
+        'react-router-dom': ['Router'],
         'history': ['createBrowserHistory'],
       }
     }),

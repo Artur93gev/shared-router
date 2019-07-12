@@ -1,6 +1,6 @@
 {
   "name": "shared-router",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Shared router for multiple SPA's wriitten in React",
   "main": "index.js",
   "repository": {
