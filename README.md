@@ -48,3 +48,7 @@ Then after calling `setPrefix(routeB)` in the `A` application, you can easly nav
 ## history
 
 Use this object to pass to the `react-router-dom` `<Router>` for sharing history between applications.
+
+# Playground
+
+Play with example [here](https://repl.it/repls/CheerfulFreshLocatorprogram)
