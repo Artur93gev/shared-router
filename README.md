@@ -1,15 +1,10 @@
 <a href="https://www.npmjs.com/package/shared-router"><img src="https://img.shields.io/badge/npm-shared--router-brightgreen.svg"></a><a href="https://www.npmjs.com/package/shared-router"><img src="https://img.shields.io/npm/v/shared-router.svg"></a>
 # shared-router
-Router helper on top of `react-router-dom` package, for sharing history between applications
+Router helper for sharing history between applications
 
 # Synopsys
 
 Dilling with large scalable frontend applications causes a lot of problems. The package targets one of those problems: routing. As you know React has no limitation of instances on one window, which can provide a good chance to start with microfrontend architecture. But when more than one application needs routing you have to think about sharing history, same matching routes, etc. `shared-router` package allows you to avoid all this problems.
-
-# Technical stack
-
-  - React(v16.): `^5.0.1`
-  - react-router-dom: `^16.3.0`
 
 # Provided API
 
@@ -47,7 +42,7 @@ Then after calling `setPrefix(routeB)` in the `A` application, you can easly nav
 
 ## history
 
-Use this object to pass to the `react-router-dom` `<Router>` for sharing history between applications.
+Use this object to manage the browser history. For example you can pass it to the `react-router-dom` `<Router>` for sharing history between applications.
 
 # Playground
 
