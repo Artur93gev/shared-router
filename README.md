@@ -46,4 +46,4 @@ Use this object to manage the browser history. For example you can pass it to th
 
 # Playground
 
-Play with example [here](https://repl.it/repls/CheerfulFreshLocatorprogram)
+Play with example [here](https://codesandbox.io/s/serverless-breeze-tf1u0?fontsize=14&hidenavigation=1&theme=dark)
